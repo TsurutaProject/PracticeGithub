@@ -11,12 +11,15 @@
 gitについての説明は知っていると思うので割愛します。
 
 git init
+<br>
 をした後、git(ローカル)とGithub(リモート)を関連づける必要性があります。
 
 そのためには使用するディレクトリをカレントディレクトリにして以下のコマンドをターミナル上で叩きます。
 
 git remote add origin <Githubのurl>.git
+<br>
 今回は
+<br>
 git remote add origin https://github.com/TsurutaProject/PracticeGithub.git
 
 を入力します。
