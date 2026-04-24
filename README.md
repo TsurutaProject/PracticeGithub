@@ -6,21 +6,17 @@
 
 # Githubのリポジトリを立てた時にまずやること
 
-## gitとGithubを関連づける
-まず、git(ローカル)側の設定をする必要があります。
-gitについての説明は知っていると思うので割愛します。
+## gitとGithubを関連づけ、Github上の進捗をローカルに持ってくる
 
-git init
+まず、gitとGithubを関連づける必要があります。
+その時に同時にGithub(リモート)上の進捗をローカルに持っていくことができます。
 <br>
-をした後、git(ローカル)とGithub(リモート)を関連づける必要性があります。
-
-そのためには使用するディレクトリをカレントディレクトリにして以下のコマンドをターミナル上で叩きます。
-
-git remote add origin <Githubのurl>.git
+以下のコマンドを使用するディレクトリ上で叩きます。
+git clone <Githubのurl> .
 <br>
 今回は
-<br>
-git remote add origin https://github.com/TsurutaProject/PracticeGithub.git
+git clone.  https://github.com/TsurutaProject/PracticeGithub.git .<br>
+と叩きます。
 
-を入力します。
-そうすると、gitとGithubを関連づけることができます。
+すると、gitとGithubを関連つけると同時に、Github上の進捗をローカルに持ってくることが可能です。
+
