@@ -50,14 +50,14 @@ git branch
 そのため、以下のコマンドを叩き、ブランチを作成し移動する必要性があります。<br>
 
 ```
-git checkout -b feature-<自分が使用するbranch>
+git checkout -b <自分が使用するbranch>
 ```
 <br>
 <自分が使用するbranch>の名前はアルファベットを使用し、自分の名前を入れてもらいたいです。<br>
 
 ex) 
 ```
-git checkout -b feature-norimaki
+git checkout -b norimaki
 ```
 <br>
 そうするとnorimakiというブランチを作成し、移動することができます。
